@@ -3,7 +3,7 @@
 int main() {
    long int second, remaining_seconds;
     int day, hour, minute;
-    scanf("%d", &second);
+    scanf("%ld", &second);
 
     day = second / 86400;
     remaining_seconds = second % 86400;
